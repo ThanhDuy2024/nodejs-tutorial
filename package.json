@@ -1,0 +1,16 @@
+{
+  "name": "nodeJS-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.0",
+    "nodemon": "^3.1.10"
+  }
+}
