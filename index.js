@@ -1,9 +1,9 @@
 import express from "express";
+import 'dotenv/config'
 import * as database from "./configs/database.js"
 import router from "./routes/admin/index.route.js";
 const app = express()
-const port = 3000
-
+const port = 3000;
 database.connect();
 
 app.use('/api/admin', router);
