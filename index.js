@@ -6,6 +6,7 @@ const app = express()
 const port = 3000;
 database.connect();
 
+app.use(express.json());
 app.use('/api/admin', router);
 
 app.listen(port, () => {
